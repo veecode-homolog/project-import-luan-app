@@ -4,7 +4,7 @@ info:
     description: Consulte CEPs de todo o Brasil.
     termsOfService: http://swagger.io/terms/
     contact:
-        email: apiteam@swagger.io
+        email: apiteam@swagger.io 
     license:
         name: Apache 2.0
         url: http://www.apache.org/licenses/LICENSE-2.0.html
