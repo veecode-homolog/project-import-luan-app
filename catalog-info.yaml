@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "sample-test-import-app"
+  description: "Artifacts generator via Spec."
+  annotations:
+    github.com/project-slug: veecode-homolog/project-import-luan-app
+    backstage.io/techdocs-ref: dir:.
+    github.com/workflows: publish.yml
+    kong-manager/service-name: app.sample-test-import-app.sample-test-import-app-service-0.80
+    kong-manager/instance: /kong-manager/cluster-veecode
+spec:
+  type: devops
+  lifecycle: experimental
+  owner: "group:default/admin"
+  providesApis:
+    - sample-test-import-app
